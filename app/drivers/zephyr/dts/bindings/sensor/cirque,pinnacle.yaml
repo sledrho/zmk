@@ -3,7 +3,11 @@ description: |
 
 compatible: "cirque,pinnacle"
 
+<<<<<<< HEAD
 include: spi-device.yaml
+=======
+include: base.yaml
+>>>>>>> bdc8b9ba... add: Cirque Pinnacle trackpad driver
 
 on-bus: spi
 
