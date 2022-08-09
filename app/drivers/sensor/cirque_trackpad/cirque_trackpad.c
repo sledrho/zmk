@@ -122,7 +122,7 @@ static void set_int(const struct device *dev, const bool en) {
         LOG_ERR("can't set interrupt");
     }
 }
-    
+
 static int pinnacle_trigger_set(const struct device *dev, const struct sensor_trigger *trig, sensor_trigger_handler_t handler) {
     struct pinnacle_data *data = dev->data;
 
